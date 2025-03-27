@@ -73,8 +73,8 @@ if (taxonomyWidgetAll.length) {
 	taxonomyWidgetAll.forEach((taxonomyWidget) => {
 		taxonomyWidget.addEventListener('change', () => {
 
-			taxName = taxonomyWidget.name;
-			taxValue = taxonomyWidget.value;
+			taxName = encodeURIComponent(taxonomyWidget.name);
+			taxValue = encodeURIComponent(taxonomyWidget.value);
 			if (taxValue !== '') {
 				document.location.href = vkExOpt.homeUrl + '/?' + taxName + '=' + taxValue;
 			}
