@@ -5,7 +5,7 @@ Tags: Google Analytics, Related Posts, sitemap, Facebook Page Plugin, OG tags
 Requires at least: 6.4
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 9.105.1.0
+Stable tag: 9.106.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,6 +81,8 @@ e.g.
 
 == Changelog ==
 
+= 9.106.0 =
+[ Specification change ][ Follow Me Box ] Change default text and design tuning
 [ Specification change ][ Blocks ] Disable all links except for edit links.
 
 = 9.105.1 =
